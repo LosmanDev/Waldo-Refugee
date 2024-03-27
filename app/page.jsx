@@ -1,16 +1,15 @@
-'use client';
-import * as React from 'react';
-import { NextUIProvider } from '@nextui-org/react';
 import Landing from './components/Landing';
 import About from './components/About';
+import Services from './components/Services';
+import Workshops from './components/Workshops';
 
 export default function Home() {
   return (
-    <NextUIProvider>
-      <main>
-        <Landing />
-        <About />
-      </main>
-    </NextUIProvider>
+    <main>
+      <Landing />
+      <About />
+      <Services />
+      <Workshops />
+    </main>
   );
 }

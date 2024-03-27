@@ -1,14 +1,36 @@
 /** @type {import('tailwindcss').Config} */
 
-const { nextui } = require('@nextui-org/react');
-
 module.exports = {
   content: [
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
     './components/**/*.{js,ts,jsx,tsx,mdx}',
     './app/**/*.{js,ts,jsx,tsx,mdx}',
-    './node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}',
   ],
+  daisyui: {
+    themes: [
+      {
+        mytheme: {
+          primary: '#cc00ff',
+
+          secondary: '#007c00',
+
+          accent: '#00f8e2',
+
+          neutral: '#1c110e',
+
+          'base-100': '#ffffff',
+
+          info: '#00ffff',
+
+          success: '#00ca96',
+
+          warning: '#c48c00',
+
+          error: '#f7003f',
+        },
+      },
+    ],
+  },
   theme: {
     extend: {
       backgroundImage: {
@@ -17,7 +39,16 @@ module.exports = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
     },
+    keyFrames: {
+      fadeIn: {
+        '0%': { opacity: 0 },
+        '100%': { opacity: 1 },
+      },
+    },
+    animation: {
+      fadeIn: 'fadeIn 2s ease-in-out',
+    },
   },
   darkMode: 'class',
-  plugins: [nextui()],
+  plugins: [require('daisyui')],
 };
