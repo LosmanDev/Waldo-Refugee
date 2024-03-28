@@ -2,9 +2,15 @@ import Image from 'next/image';
 
 const Workshops = () => {
   return (
-    <section className="bg-white mb-10">
+    <section
+      data-aos="zoom-in"
+      data-aos-duration="2000"
+      data-aos-id="super-duper"
+      id="workshop"
+      className="bg-white mb-10"
+    >
       <div className="container max-w-5xl mx-auto m-8">
-        <h2 className="w-full my-2 text-5xl font-bold leading-tight text-center text-slate-500">
+        <h2 className="w-full my-2 text-5xl font-bold leading-tight text-center bg-gradient-to-r from-custom-green to-custom-cream text-transparent bg-clip-text">
           WorkShops
         </h2>
         <div className="w-full mb-4">
@@ -113,7 +119,12 @@ const Workshops = () => {
             </div>
           </div>
         </div>
-        <div className="grid grid-cols-1 items-center text-center">
+        <div
+          data-aos="fade-right"
+          data-aos-duration="2000"
+          data-aos-id="super-duper"
+          className="grid grid-cols-1 items-center text-center"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="3em"

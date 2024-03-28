@@ -3,7 +3,13 @@ import Svg from './ui/Svg';
 
 const Services = () => {
   return (
-    <section className="gradient">
+    <section
+      data-aos="fade-down"
+      data-aos-duration="2000"
+      data-aos-id="super-duper"
+      id="services"
+      className="gradient"
+    >
       <Svg2 />
       <div className="container max-w-5xl mx-auto m-8">
         <h2 className="w-full my-2 text-5xl font-bold leading-tight text-center text-white">
@@ -14,49 +20,94 @@ const Services = () => {
           <div className="h-1 mx-auto bg-white w-64 opacity-25 my-0 py-0 rounded-t"></div>
         </div>
         <div className="p-4 grid grid-cols-2 gap-4 md:grid-cols-4 text-center">
-          <div className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-xl">
+          <div
+            data-aos="fade-right"
+            data-aos-duration="2000"
+            data-aos-id="super-duper"
+            className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-xl"
+          >
             <p className="text-xl font-semibold text-slate-600">
               Low Income Housing Search
             </p>
           </div>
-          <div className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-xl">
+          <div
+            data-aos="fade-right"
+            data-aos-duration="2000"
+            data-aos-id="super-duper"
+            className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-xl"
+          >
             <p className="text-xl font-semibold  text-slate-600">
               Rent Assistance Referral
             </p>
           </div>
-          <div className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-xl">
+          <div
+            data-aos="fade-right"
+            data-aos-duration="2000"
+            data-aos-id="super-duper"
+            className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-xl"
+          >
             <p className="text-xl font-semibold  text-slate-600">
               Housing Advocacy
             </p>
           </div>
-          <div className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-xl">
+          <div
+            data-aos="fade-right"
+            data-aos-duration="2000"
+            data-aos-id="super-duper"
+            className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-xl"
+          >
             <p className="text-xl font-semibold  text-slate-600">
               Eviction Prevention
             </p>
           </div>
-          <div className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-xl">
+          <div
+            data-aos="fade-right"
+            data-aos-duration="2000"
+            data-aos-id="super-duper"
+            className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-xl"
+          >
             <p className="text-xl font-semibold  text-slate-600">
               Court Assistance
             </p>
           </div>
-          <div className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-xl">
+          <div
+            data-aos="fade-right"
+            data-aos-duration="2000"
+            data-aos-id="super-duper"
+            className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-xl"
+          >
             <p className="text-xl font-semibold  text-slate-600">
               Home Repair Referral
             </p>
           </div>
-          <div className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-xl">
+          <div
+            data-aos="fade-right"
+            data-aos-duration="2000"
+            data-aos-id="super-duper"
+            className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-xl"
+          >
             <p className="text-xl font-semibold  text-slate-600">
               First Time Home Buyer Assistance
             </p>
           </div>
-          <div className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-md">
+          <div
+            data-aos="fade-right"
+            data-aos-duration="2000"
+            data-aos-id="super-duper"
+            className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-md"
+          >
             <p className="text-xl font-semibold  text-slate-600">
               Help Families to Prevent Foreclosure
             </p>
           </div>
         </div>
 
-        <div className="flex items-center justify-center item mt-10 mb-5">
+        <div
+          data-aos="zoom-in"
+          data-aos-duration="2000"
+          data-aos-id="super-duper"
+          className="flex items-center justify-center item mt-10 mb-5"
+        >
           <h1 className="text-white text-center text-2xl font-medium">
             Our Staff are Fluent in
           </h1>
@@ -90,7 +141,12 @@ const Services = () => {
             ></path>
           </svg>
         </div>
-        <div className="flex items-center justify-center">
+        <div
+          data-aos="zoom-in"
+          data-aos-duration="2000"
+          data-aos-id="super-duper"
+          className="flex items-center justify-center"
+        >
           <ul className="grid grid-cols-3 gap-2 md:grid-cols-7 text-center">
             <li className="text-center text-xl font-semibold text-slate-700 rounded-lg">
               English

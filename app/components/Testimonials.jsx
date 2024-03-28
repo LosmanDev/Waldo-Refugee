@@ -2,7 +2,13 @@ import Svg2 from './ui/Svg2';
 import Svg from './ui/Svg';
 const Testimonials = () => {
   return (
-    <section className="gradient">
+    <section
+      data-aos="fade"
+      data-aos-duration="2000"
+      data-aos-id="super-duper"
+      id="testimonials"
+      className="gradient"
+    >
       <Svg2 />
       <div className="container max-w-5xl mx-auto m-8">
         <h2 className="w-full my-2 text-5xl font-bold leading-tight text-center text-white">
@@ -14,7 +20,12 @@ const Testimonials = () => {
         <section className="text-gray-600 body-font">
           <div className="container px-5 py-24 mx-auto">
             <div className="flex flex-wrap justify-center -m-4">
-              <div className="p-4 md:w-1/2 w-full">
+              <div
+                data-aos="zoom-in-right"
+                data-aos-duration="2000"
+                data-aos-id="super-duper"
+                className="p-4 md:w-1/2 w-full"
+              >
                 <div className="h-full bg-gray-100 p-8 rounded">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -40,6 +51,7 @@ const Testimonials = () => {
                   </a>
                   <div className="flex justify-center">
                     <iframe
+                      className="rounded-lg"
                       src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2FWaldoFoundation%2Fvideos%2F347673270522216%2F&show_text=true&width=267&t=0"
                       width="267"
                       height="591"
@@ -55,7 +67,12 @@ const Testimonials = () => {
                   </div>
                 </div>
               </div>
-              <div className="p-4 md:w-1/2 w-full">
+              <div
+                data-aos="zoom-in-right"
+                data-aos-duration="2000"
+                data-aos-id="super-duper"
+                className="p-4 md:w-1/2 w-full"
+              >
                 <div className="h-full bg-gray-100 p-8 rounded">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -81,6 +98,7 @@ const Testimonials = () => {
                   </a>
                   <div className="flex justify-center">
                     <iframe
+                      className="rounded-lg"
                       src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2FWaldoFoundation%2Fvideos%2F569563428417132%2F&show_text=true&width=261&t=0"
                       width="261"
                       height="591"
@@ -93,7 +111,12 @@ const Testimonials = () => {
                   </div>
                 </div>
               </div>
-              <div className="p-4 md:w-1/2 w-full">
+              <div
+                data-aos="zoom-in-right"
+                data-aos-duration="2000"
+                data-aos-id="super-duper"
+                className="p-4 md:w-1/2 w-full"
+              >
                 <div className="h-full bg-gray-100 p-8 rounded">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -119,6 +142,7 @@ const Testimonials = () => {
                   </a>
                   <div className="flex justify-center">
                     <iframe
+                      className="rounded-lg"
                       src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2FWaldoFoundation%2Fvideos%2F923848368783035%2F&show_text=true&width=267&t=0"
                       width="267"
                       height="591"

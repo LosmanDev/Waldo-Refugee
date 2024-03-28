@@ -1,8 +1,14 @@
 const Contact = () => {
   return (
-    <section className="bg-white">
-      <div className="container max-w-5xl mx-auto m-8">
-        <h2 className="w-full my-2 text-5xl font-bold leading-tight text-center bg-gradient-to-r from-custom-green to-custom-cream text-transparent bg-clip-text">
+    <section
+      data-aos="zoom-in-up"
+      data-aos-duration="2000"
+      data-aos-id="super-duper"
+      id="contact"
+      className="bg-white"
+    >
+      <div className="container max-w-5xl mx-auto m-8 px-10">
+        <h2 className="w-full my-2 sm:text-5xl text-3xl font-bold leading-tight text-center bg-gradient-to-r from-custom-green to-custom-cream text-transparent bg-clip-text">
           Lets Get In Touch
         </h2>
         <svg
@@ -22,24 +28,26 @@ const Contact = () => {
         </div>
 
         <div className="grid grid-cols-1 text-center justify-center mt-10">
-          <h1 className="text-slate-600 font-semibold text-2xl pb-3">
+          <h1 className="text-slate-600 font-semibold sm:text-2xl text-xl pb-3">
             Founder/Executive Director
           </h1>
           <a href="mailto:Maka@WaldoHousing.org" className="pb-5">
-            <span className="text-slate-600 font-medium text-xl pb-5">
+            <span className="text-slate-600 font-medium sm:text-xl text-lg pb-5">
               Maka
               <span className="text-custom-green">@</span>
               WaldoHousing.org
             </span>
           </a>
-          <h1 className="text-slate-600 font-semibold text-2xl pb-3">Phone</h1>
-          <span className="text-slate-600 font-medium text-xl pb-5">
+          <h1 className="text-slate-600 font-semibold sm:text-2xl text-xl pb-3">
+            Phone
+          </h1>
+          <span className="text-slate-600 font-medium sm:text-xl text-lg pb-5">
             781-408-8939
           </span>
-          <h1 className="text-slate-600 font-semibold text-2xl pb-3">
+          <h1 className="text-slate-600 font-semibold sm:text-2xl text-xl pb-3">
             Office Location
           </h1>
-          <span className="text-slate-600 font-medium text-xl pb-3">
+          <span className="text-slate-600 font-medium sm:text-xl text-lg pb-3">
             <span className="text-custom-green">1417 </span>
             Tremont Street, Boston MA{' '}
             <span className="text-custom-green">02120</span>

@@ -34,8 +34,21 @@ const Nav = () => {
               <Link href="/">Home</Link>
             </li>
             <li>
-              <Link href="/about">About</Link>
+              <Link href="#about">About</Link>
             </li>
+            <li>
+              <Link href="#services">Services</Link>
+            </li>
+            <li>
+              <Link href="#workshop">Workshops</Link>
+            </li>
+            <li>
+              <Link href="#testimonials">Testimonials</Link>
+            </li>
+            <li>
+              <Link href="#contact">Contact</Link>
+            </li>
+            <li></li>
           </ul>
         </div>
         <Link href="/">
@@ -49,15 +62,32 @@ const Nav = () => {
         </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal gap-10 px-1 text-2xl font-normal text-neutral">
+        <ul className="menu menu-horizontal gap-5 px-1 text-2xl font-normal text-neutral">
           <li>
             <Link href="/">Home</Link>
           </li>
           <li>
-            <Link href="/about">About</Link>
+            <Link href="#about">About</Link>
           </li>
           <li>
-            <Link className="text-warning" href="/donate" alt="donate">
+            <Link href="#services">Services</Link>
+          </li>
+          <li>
+            <Link href="#workshop">Workshops</Link>
+          </li>
+          <li>
+            <Link href="#testimonials">Testimonials</Link>
+          </li>
+          <li>
+            <Link href="#contact">Contact</Link>
+          </li>
+          <li>
+            <Link
+              className="text-warning"
+              href="https://www.paypal.com/donate/?hosted_button_id=SCJGWJDYNB5T8"
+              target="_blank"
+              alt="donate"
+            >
               Donate
             </Link>
           </li>
@@ -65,7 +95,8 @@ const Nav = () => {
       </div>
       <div className="navbar-end">
         <Link
-          href="/donate"
+          href="https://www.paypal.com/donate/?hosted_button_id=SCJGWJDYNB5T8"
+          target="_blank"
           className="btn bg-warning lg:hidden font-bold text-base-100"
           alt="donate"
         >
