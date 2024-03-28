@@ -38,6 +38,10 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      colors: {
+        'custom-green': '#56a399',
+        'custom-cream': '#F7F6E2',
+      },
     },
     keyFrames: {
       fadeIn: {
