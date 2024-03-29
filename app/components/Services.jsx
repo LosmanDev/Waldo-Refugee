@@ -11,7 +11,7 @@ const Services = () => {
       className="gradient"
     >
       <Svg2 />
-      <div className="container max-w-5xl mx-auto m-8">
+      <div className="container max-w-5xl mx-auto m-8 ">
         <h2 className="w-full my-2 text-5xl font-bold leading-tight text-center text-white">
           Our Services
         </h2>
@@ -47,19 +47,10 @@ const Services = () => {
             className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-xl"
           >
             <p className="text-xl font-semibold  text-slate-600">
-              Housing Advocacy
+              Housing Advocacy/Eviction Prevention
             </p>
           </div>
-          <div
-            data-aos="fade-right"
-            data-aos-duration="2000"
-            data-aos-id="super-duper"
-            className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-xl"
-          >
-            <p className="text-xl font-semibold  text-slate-600">
-              Eviction Prevention
-            </p>
-          </div>
+
           <div
             data-aos="fade-right"
             data-aos-duration="2000"
@@ -94,10 +85,21 @@ const Services = () => {
             data-aos="fade-right"
             data-aos-duration="2000"
             data-aos-id="super-duper"
-            className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-md"
+            className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-xl"
           >
             <p className="text-xl font-semibold  text-slate-600">
-              Help Families to Prevent Foreclosure
+              Assistance with Home ownership
+            </p>
+          </div>
+
+          <div
+            data-aos="fade-right"
+            data-aos-duration="2000"
+            data-aos-id="super-duper"
+            className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-xl"
+          >
+            <p className="text-xl font-semibold  text-slate-600">
+              Immigration Referral
             </p>
           </div>
         </div>

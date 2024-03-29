@@ -1,4 +1,5 @@
 import './globals.css';
+import Head from 'next/head';
 import { Poppins } from 'next/font/google';
 import Navbar from './components/Navbar';
 
@@ -18,6 +19,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${poppins.variable}`}>
+      <Head>
+        <link rel="icon" href="/waldo-ico.ico" />
+      </Head>
       <body className="flex flex-col min-h-screen">
         <Navbar />
         <div>{children}</div>

@@ -5,7 +5,7 @@ const Contact = () => {
       data-aos-duration="2000"
       data-aos-id="super-duper"
       id="contact"
-      className="bg-white"
+      className="bg-white mt-40"
     >
       <div className="container max-w-5xl mx-auto m-8 px-10">
         <h2 className="w-full my-2 sm:text-5xl text-3xl font-bold leading-tight text-center bg-gradient-to-r from-custom-green to-custom-cream text-transparent bg-clip-text">

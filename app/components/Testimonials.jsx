@@ -59,8 +59,6 @@ const Testimonials = () => {
                         border: 'none',
                         overflow: 'hidden',
                       }}
-                      scrolling="no"
-                      frameBorder="0"
                       allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
                       allowFullScreen
                     ></iframe>
@@ -103,8 +101,6 @@ const Testimonials = () => {
                       width="261"
                       height="591"
                       style={{ border: 'none', overflow: 'hidden' }}
-                      scrolling="no"
-                      frameBorder="0"
                       allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
                       allowFullScreen
                     ></iframe>
@@ -147,7 +143,6 @@ const Testimonials = () => {
                       width="267"
                       height="591"
                       style={{ border: 'none', overflow: 'hidden' }}
-                      scrolling="no"
                       frameborder="0"
                       allowfullscreen="true"
                       allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
