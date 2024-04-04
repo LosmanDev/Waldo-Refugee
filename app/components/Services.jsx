@@ -47,7 +47,18 @@ const Services = () => {
             className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-xl"
           >
             <p className="text-xl font-semibold  text-slate-600">
-              Housing Advocacy/Eviction Prevention
+              Housing Advocacy
+            </p>
+          </div>
+
+          <div
+            data-aos="fade-right"
+            data-aos-duration="2000"
+            data-aos-id="super-duper"
+            className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-xl"
+          >
+            <p className="text-xl font-semibold  text-slate-600">
+              Eviction Prevention
             </p>
           </div>
 
@@ -147,7 +158,7 @@ const Services = () => {
           data-aos="zoom-in"
           data-aos-duration="2000"
           data-aos-id="super-duper"
-          className="flex items-center justify-center"
+          className="flex justify-center"
         >
           <ul className="grid grid-cols-3 gap-2 md:grid-cols-7 text-center">
             <li className="text-center text-xl font-semibold text-slate-700 rounded-lg">
@@ -170,6 +181,12 @@ const Services = () => {
             </li>
             <li className="text-center text-xl font-semibold text-slate-700 rounded-lg">
               Darija
+            </li>
+            <li className="text-center text-xl font-semibold text-white rounded-lg">
+              Pashto
+            </li>
+            <li className="text-center text-xl font-semibold text-slate-700 rounded-lg">
+              Dari
             </li>
           </ul>
         </div>

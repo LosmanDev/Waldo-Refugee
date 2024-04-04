@@ -21,7 +21,7 @@ const Testimonials = () => {
           <div className="container px-5 py-24 mx-auto">
             <div className="flex flex-wrap justify-center -m-4">
               <div
-                data-aos="zoom-in-right"
+                data-aos="fade-right"
                 data-aos-duration="2000"
                 data-aos-id="super-duper"
                 className="p-4 md:w-1/2 w-full"
@@ -66,7 +66,7 @@ const Testimonials = () => {
                 </div>
               </div>
               <div
-                data-aos="zoom-in-right"
+                data-aos="fade-right"
                 data-aos-duration="2000"
                 data-aos-id="super-duper"
                 className="p-4 md:w-1/2 w-full"
@@ -108,7 +108,7 @@ const Testimonials = () => {
                 </div>
               </div>
               <div
-                data-aos="zoom-in-right"
+                data-aos="fade-right"
                 data-aos-duration="2000"
                 data-aos-id="super-duper"
                 className="p-4 md:w-1/2 w-full"
