@@ -1,4 +1,4 @@
-import { WaldoSliderDemo } from './ui/waldoSliderDemo';
+import { WaldoSliderDemo } from './ui/WaldoSliderDemo';
 
 const Workshops = () => {
   return (
