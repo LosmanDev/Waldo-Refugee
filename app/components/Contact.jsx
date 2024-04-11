@@ -35,7 +35,7 @@ const Contact = () => {
             <span className="text-slate-600 font-medium sm:text-xl text-lg pb-5">
               Maka
               <span className="text-custom-green">@</span>
-              WaldoHousing.org
+              waldohousing.org
             </span>
           </a>
           <h1 className="text-slate-600 font-semibold sm:text-2xl text-xl pb-3">

@@ -53,10 +53,13 @@ const Landing = () => {
               <Link href="https://twitter.com/WaldoHousingInc" target="_blank">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="sm:w-9 sm:h-10 w-5 h-8"
-                  viewBox="0 0 128 128"
+                  className="sm:w-9 sm:h-10 w-8 h-8"
+                  viewBox="0 0 448 512"
                 >
-                  <path d="M75.916 54.2L122.542 0h-11.05L71.008 47.06L38.672 0H1.376l48.898 71.164L1.376 128h11.05L55.18 78.303L89.328 128h37.296L75.913 54.2ZM60.782 71.79l-4.955-7.086l-39.42-56.386h16.972L65.19 53.824l4.954 7.086l41.353 59.15h-16.97L60.782 71.793Z"></path>
+                  <path
+                    fill="black"
+                    d="M64 32C28.7 32 0 60.7 0 96v320c0 35.3 28.7 64 64 64h320c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64zm297.1 84L257.3 234.6L379.4 396h-95.6L209 298.1L123.3 396H75.8l111-126.9L69.7 116h98l67.7 89.5l78.2-89.5zm-37.8 251.6L153.4 142.9h-28.3l171.8 224.7h26.3z"
+                  ></path>
                 </svg>
               </Link>
               <Link
@@ -130,7 +133,7 @@ const Landing = () => {
             data-aos-id="super-duper"
             className="w-full md:w-3/5 py-6 text-center"
           >
-            <ImagesSliderDemo className="animate-fadeIn" />
+            <ImagesSliderDemo />
           </div>
         </div>
       </div>

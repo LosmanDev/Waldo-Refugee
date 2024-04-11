@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import { WaldoSliderDemo } from './ui/waldoSliderDemo';
 
 const Workshops = () => {
   return (
@@ -16,108 +16,14 @@ const Workshops = () => {
         <div className="w-full mb-4">
           <div className="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
         </div>
-        <div className="flex justify-center items-center">
-          <div className="carousel carousel-center max-w-prose p-4 space-x-4 bg-base-100 rounded-box">
-            <div className="carousel-item">
-              <Image
-                src="/assets/images/h-1.jpg"
-                className="rounded-box"
-                alt="workshop class image"
-                width={700}
-                height={500}
-              />
-            </div>
-            <div className="carousel-item">
-              <Image
-                src="/assets/images/h-2.jpg"
-                className="rounded-box"
-                alt="workshop class image"
-                width={500}
-                height={500}
-              />
-            </div>
-            <div className="carousel-item">
-              <Image
-                src="/assets/images/h-3.jpg"
-                className="rounded-box"
-                alt="workshop class image"
-                width={500}
-                height={500}
-              />
-            </div>
-            <div className="carousel-item">
-              <Image
-                src="/assets/images/h-4.jpg"
-                className="rounded-box"
-                alt="workshop class image"
-                width={500}
-                height={500}
-              />
-            </div>
-            <div className="carousel-item">
-              <Image
-                src="/assets/images/v-1.jpg"
-                className="rounded-box"
-                alt="workshop class image"
-                width={500}
-                height={500}
-              />
-            </div>
-            <div className="carousel-item">
-              <Image
-                src="/assets/images/v-2.jpg"
-                className="rounded-box"
-                alt="workshop class image"
-                width={500}
-                height={500}
-              />
-            </div>
-            <div className="carousel-item">
-              <Image
-                src="/assets/images/v-3.jpg"
-                className="rounded-box"
-                alt="workshop class image"
-                width={500}
-                height={500}
-              />
-            </div>
-            <div className="carousel-item">
-              <Image
-                src="/assets/images/v-4.jpg"
-                className="rounded-box"
-                alt="workshop class image"
-                width={500}
-                height={200}
-              />
-            </div>
-            <div className="carousel-item">
-              <Image
-                src="/assets/images/v-5.jpg"
-                className="rounded-box"
-                alt="workshop class image"
-                width={500}
-                height={500}
-              />
-            </div>
-            <div className="carousel-item">
-              <Image
-                src="/assets/images/v-6.jpg"
-                className="rounded-box"
-                alt="workshop class image"
-                width={500}
-                height={500}
-              />
-            </div>
-            <div className="carousel-item">
-              <Image
-                src="/assets/images/v-7.jpg"
-                className="rounded-box"
-                alt="workshop class image"
-                width={500}
-                height={500}
-              />
-            </div>
-          </div>
+
+        <div
+          data-aos="fade-right"
+          data-aos-duration="3000"
+          data-aos-id="super-duper"
+          className="w-full px-3 text-center mb-5"
+        >
+          <WaldoSliderDemo />
         </div>
         <div
           data-aos="fade-right"

@@ -1,5 +1,6 @@
 import Svg2 from './ui/Svg2';
 import Svg from './ui/Svg';
+import Image from 'next/image';
 
 const Services = () => {
   return (
@@ -19,102 +20,230 @@ const Services = () => {
         <div className="w-full mb-4">
           <div className="h-1 mx-auto bg-white w-64 opacity-25 my-0 py-0 rounded-t"></div>
         </div>
-        <div className="p-4 grid grid-cols-2 gap-4 md:grid-cols-4 text-center">
-          <div
-            data-aos="fade-right"
-            data-aos-duration="2000"
-            data-aos-id="super-duper"
-            className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-xl"
-          >
-            <p className="text-xl font-semibold text-slate-600">
-              Low Income Housing Search
-            </p>
-          </div>
-          <div
-            data-aos="fade-right"
-            data-aos-duration="2000"
-            data-aos-id="super-duper"
-            className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-xl"
-          >
-            <p className="text-xl font-semibold  text-slate-600">
-              Rent Assistance Referral
-            </p>
-          </div>
-          <div
-            data-aos="fade-right"
-            data-aos-duration="2000"
-            data-aos-id="super-duper"
-            className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-xl"
-          >
-            <p className="text-xl font-semibold  text-slate-600">
-              Housing Advocacy
-            </p>
-          </div>
-
-          <div
-            data-aos="fade-right"
-            data-aos-duration="2000"
-            data-aos-id="super-duper"
-            className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-xl"
-          >
-            <p className="text-xl font-semibold  text-slate-600">
-              Eviction Prevention
-            </p>
-          </div>
-
-          <div
-            data-aos="fade-right"
-            data-aos-duration="2000"
-            data-aos-id="super-duper"
-            className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-xl"
-          >
-            <p className="text-xl font-semibold  text-slate-600">
-              Court Assistance
-            </p>
-          </div>
-          <div
-            data-aos="fade-right"
-            data-aos-duration="2000"
-            data-aos-id="super-duper"
-            className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-xl"
-          >
-            <p className="text-xl font-semibold  text-slate-600">
-              Home Repair Referral
-            </p>
-          </div>
-          <div
-            data-aos="fade-right"
-            data-aos-duration="2000"
-            data-aos-id="super-duper"
-            className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-xl"
-          >
-            <p className="text-xl font-semibold  text-slate-600">
-              First Time Home Buyer Assistance
-            </p>
-          </div>
-          <div
-            data-aos="fade-right"
-            data-aos-duration="2000"
-            data-aos-id="super-duper"
-            className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-xl"
-          >
-            <p className="text-xl font-semibold  text-slate-600">
-              Assistance with Home ownership
-            </p>
-          </div>
-
-          <div
-            data-aos="fade-right"
-            data-aos-duration="2000"
-            data-aos-id="super-duper"
-            className="flex flex-col items-center justify-center p-4 bg-white rounded-lg shadow-xl"
-          >
-            <p className="text-xl font-semibold  text-slate-600">
-              Immigration Referral
-            </p>
+        <div
+          data-aos="fade-up"
+          data-aos-duration="2000"
+          data-aos-id="super-duper"
+          className="container px-5 py-24 mx-auto"
+        >
+          <div className="flex justify-center items-center flex-wrap -m-4 w-3/4 sm:w-full mx-auto">
+            <div
+              data-aos="fade-right"
+              data-aos-duration="2000"
+              data-aos-id="super-duper"
+              className="p-4 md:w-1/3"
+            >
+              <div className="h-full border-2 bg-custom-cream border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                <div className="lg:h-48 md:h-36 h-24 w-full relative">
+                  <Image
+                    className="pt-5"
+                    src="/assets/images/low-income.png"
+                    alt="low income"
+                    layout="fill"
+                    objectFit="contain"
+                  />
+                </div>
+                <div className="p-6">
+                  <h1 className="title-font text-xl font-semibold text-center text-custom-green mb-3">
+                    Low Income Housing Search
+                  </h1>
+                </div>
+              </div>
+            </div>
+            <div
+              data-aos="fade-right"
+              data-aos-duration="2000"
+              data-aos-id="super-duper"
+              className="p-4 md:w-1/3"
+            >
+              <div className="h-full border-2 bg-custom-cream border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                <div className="lg:h-48 md:h-36 h-24 w-full relative">
+                  <Image
+                    className="pt-5"
+                    src="/assets/images/rent-assistance.png"
+                    alt="rent assistance"
+                    layout="fill"
+                    objectFit="contain"
+                    objectPosition="center"
+                  />
+                </div>
+                <div className="p-6">
+                  <h1 className="title-font text-xl font-semibold text-center text-custom-green mb-3">
+                    Rent Assistance Referral
+                  </h1>
+                </div>
+              </div>
+            </div>
+            <div
+              data-aos="fade-right"
+              data-aos-duration="2000"
+              data-aos-id="super-duper"
+              className="p-4 md:w-1/3"
+            >
+              <div className="h-full border-2 bg-custom-cream border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                <div className="lg:h-48 md:h-36 h-24 w-full relative">
+                  <Image
+                    className="pt-5"
+                    src="/assets/images/advocacy.png"
+                    alt="Housing Advocacy"
+                    layout="fill"
+                    objectFit="contain"
+                    objectPosition="center"
+                  />
+                </div>
+                <div className="p-6">
+                  <h1 className="title-font text-xl font-semibold text-center text-custom-green mb-3">
+                    Housing Advocacy
+                  </h1>
+                </div>
+              </div>
+            </div>
+            <div
+              data-aos="fade-right"
+              data-aos-duration="2000"
+              data-aos-id="super-duper"
+              className="p-4 md:w-1/3"
+            >
+              <div className="h-full border-2 bg-custom-cream border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                <div className="lg:h-48 md:h-36 h-24 w-full relative">
+                  <Image
+                    className="pt-5"
+                    src="/assets/images/eviction-prevention.png"
+                    alt="eviction prevention"
+                    layout="fill"
+                    objectFit="contain"
+                    objectPosition="center"
+                  />
+                </div>
+                <div className="p-6">
+                  <h1 className="title-font text-xl font-semibold text-center text-custom-green mb-3">
+                    Eviction Prevention
+                  </h1>
+                </div>
+              </div>
+            </div>
+            <div
+              data-aos="fade-right"
+              data-aos-duration="2000"
+              data-aos-id="super-duper"
+              className="p-4 md:w-1/3"
+            >
+              <div className="h-full border-2 bg-custom-cream border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                <div className="lg:h-48 md:h-36 h-24 w-full relative">
+                  <Image
+                    className="pt-5"
+                    src="/assets/images/court.png"
+                    alt="court assistance"
+                    layout="fill"
+                    objectFit="contain"
+                    objectPosition="center"
+                  />
+                </div>
+                <div className="p-6">
+                  <h1 className="title-font text-xl font-semibold text-center text-custom-green mb-3">
+                    Court Assistance
+                  </h1>
+                </div>
+              </div>
+            </div>
+            <div
+              data-aos="fade-right"
+              data-aos-duration="2000"
+              data-aos-id="super-duper"
+              className="p-4 md:w-1/3"
+            >
+              <div className="h-full border-2 bg-custom-cream border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                <div className="lg:h-48 md:h-36 h-24 w-full relative">
+                  <Image
+                    className="pt-5"
+                    src="/assets/images/home-repair.png"
+                    alt="home repair"
+                    layout="fill"
+                    objectFit="contain"
+                    objectPosition="center"
+                  />
+                </div>
+                <div className="p-6">
+                  <h1 className="title-font text-xl font-semibold text-center text-custom-green mb-3">
+                    Home Repair Referral
+                  </h1>
+                </div>
+              </div>
+            </div>
+            <div
+              data-aos="fade-right"
+              data-aos-duration="2000"
+              data-aos-id="super-duper"
+              className="p-4 md:w-1/3"
+            >
+              <div className="h-full border-2 bg-custom-cream border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                <div className="lg:h-48 md:h-36 h-24 w-full relative">
+                  <Image
+                    className="pt-5"
+                    src="/assets/images/home-buyer.png"
+                    alt="Home Buyer Assistance"
+                    layout="fill"
+                    objectFit="contain"
+                    objectPosition="center"
+                  />
+                </div>
+                <div className="p-6">
+                  <h1 className="title-font text-xl font-semibold text-center text-custom-green mb-3">
+                    First Time Home Buyer Assistance
+                  </h1>
+                </div>
+              </div>
+            </div>
+            <div
+              data-aos="fade-right"
+              data-aos-duration="2000"
+              data-aos-id="super-duper"
+              className="p-4 md:w-1/3"
+            >
+              <div className="h-full border-2 bg-custom-cream border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                <div className="lg:h-48 md:h-36 h-24 w-full relative">
+                  <Image
+                    className="pt-5"
+                    src="/assets/images/home-ownership.png"
+                    alt="Home ownership assistance"
+                    layout="fill"
+                    objectFit="contain"
+                    objectPosition="center"
+                  />
+                </div>
+                <div className="p-6">
+                  <h1 className="title-font text-xl font-semibold text-center text-custom-green mb-3">
+                    Assistance with Home ownership
+                  </h1>
+                </div>
+              </div>
+            </div>
+            <div
+              data-aos="fade-right"
+              data-aos-duration="2000"
+              data-aos-id="super-duper"
+              className="p-4 md:w-1/3"
+            >
+              <div className="h-full border-2 bg-custom-cream border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                <div className="lg:h-48 md:h-36 h-24 w-full relative">
+                  <Image
+                    className="pt-5"
+                    src="/assets/images/immigration.png"
+                    alt="immigration referral"
+                    layout="fill"
+                    objectFit="contain"
+                    objectPosition="center"
+                  />
+                </div>
+                <div className="p-6">
+                  <h1 className="title-font text-xl font-semibold text-center text-custom-green mb-3">
+                    Immigration Referral
+                  </h1>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-
         <div
           data-aos="zoom-in"
           data-aos-duration="2000"
@@ -158,34 +287,34 @@ const Services = () => {
           data-aos="zoom-in"
           data-aos-duration="2000"
           data-aos-id="super-duper"
-          className="flex justify-center"
+          className="flex justify-center items-center"
         >
-          <ul className="grid grid-cols-3 gap-2 md:grid-cols-7 text-center">
-            <li className="text-center text-xl font-semibold text-slate-700 rounded-lg">
+          <ul className="flex flex-wrap text-center justify-center items-center">
+            <li className="text-center text-xl px-4 font-semibold text-slate-700 rounded-lg">
               English
             </li>
-            <li className="text-center text-xl font-semibold text-white rounded-lg">
+            <li className="text-center text-xl px-4 font-semibold text-white rounded-lg">
               Somali
             </li>
-            <li className="text-center text-xl font-semibold text-slate-700 rounded-lg">
+            <li className="text-center text-xl px-4 font-semibold text-slate-700 rounded-lg">
               Arabic
             </li>
-            <li className="text-center text-xl font-semibold text-white rounded-lg">
+            <li className="text-center text-xl px-4 font-semibold text-white rounded-lg">
               Swahili
             </li>
-            <li className="text-center text-xl font-semibold text-slate-700 rounded-lg">
+            <li className="text-center text-xl px-4 font-semibold text-slate-700 rounded-lg">
               French
             </li>
-            <li className="text-center text-xl font-semibold text-white rounded-lg">
+            <li className="text-center text-xl px-4 font-semibold text-white rounded-lg">
               Maay Maay
             </li>
-            <li className="text-center text-xl font-semibold text-slate-700 rounded-lg">
+            <li className="text-center text-xl px-4 font-semibold text-slate-700 rounded-lg">
               Darija
             </li>
-            <li className="text-center text-xl font-semibold text-white rounded-lg">
+            <li className="text-center text-xl px-4 font-semibold text-white rounded-lg">
               Pashto
             </li>
-            <li className="text-center text-xl font-semibold text-slate-700 rounded-lg">
+            <li className="text-center text-xl px-4 font-semibold text-slate-700 rounded-lg">
               Dari
             </li>
           </ul>
