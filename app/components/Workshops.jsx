@@ -21,7 +21,7 @@ const Workshops = () => {
           data-aos="fade-right"
           data-aos-duration="3000"
           data-aos-id="super-duper"
-          className="w-full px-3 text-center mb-5"
+          className="w-full text-center mb-5 "
         >
           <WaldoSliderDemo />
         </div>

@@ -6,7 +6,7 @@ const Landing = () => {
   return (
     <section className="gradient mt-10">
       <div
-        data-aos="fade"
+        data-aos="fade-right"
         data-aos-duration="2000"
         data-aos-id="super-duper"
         className="pt-24 text-white"
@@ -129,7 +129,7 @@ const Landing = () => {
 
           <div
             data-aos="fade-right"
-            data-aos-duration="3000"
+            data-aos-duration="2000"
             data-aos-id="super-duper"
             className="w-full md:w-3/5 py-6 text-center"
           >

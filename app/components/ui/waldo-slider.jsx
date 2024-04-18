@@ -135,7 +135,7 @@ export const WaldoSlider = ({
             animate="visible"
             exit={direction === 'up' ? 'upExit' : 'downExit'}
             variants={slideVariants}
-            className="image h-full w-full absolute inset-0 object-contain rounded-lg"
+            className="image h-full w-full absolute inset-0 object-contain rounded-xl"
           />
         </AnimatePresence>
       )}
