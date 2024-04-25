@@ -45,9 +45,18 @@ const Workshops = () => {
               d="M19 7s-5 7-12.5 7c-2 0-5.5 1-5.5 5v4h11v-4c0-2.5 3-1 7-8l-1.5-1.5M3 5V2h20v14h-3M11 1h4v2h-4zM6.5 14a3.5 3.5 0 1 0 0-7a3.5 3.5 0 0 0 0 7Z"
             ></path>
           </svg>
+          <span className="font-semibold text-slate-600 text-xl pb-2">
+            Financial Literacy for Afghanis <br /> Start Dates: 5/10/2024 ,
+            5/11/2024
+          </span>
+          <span className="font-semibold text-slate-600 text-xl pb-2">
+            Financial Literacy for Somali's <br /> Start Dates: 4/26/2024 ,
+            4/27/2024
+          </span>
           <h1 className="text-center font-medium text-slate-700 text-2xl mb-1">
             Financial Literacy For Newcomers
           </h1>
+
           <span className="font-medium text-slate-500 text-xl pb-2">
             Start Dates: 12/10/2022 , 12/17/2022 , 1/7/2023 & 1/14/2023
           </span>
