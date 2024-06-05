@@ -6,16 +6,28 @@ import { WaldoSlider } from './waldo-slider';
 export function WaldoSliderDemo() {
   const images = [
     '/assets/images/h-1.jpg',
-    '/assets/images/h-2.jpg',
-    '/assets/images/h-3.jpg',
-    '/assets/images/h-4.jpg',
+    '/assets/images/h-2.webp',
+    '/assets/images/h-3.webp',
+    '/assets/images/h-4.webp',
     '/assets/images/v-1.jpg',
     '/assets/images/v-2.jpg',
     '/assets/images/v-3.jpg',
     '/assets/images/v-4.jpg',
     '/assets/images/v-5.jpg',
     '/assets/images/v-6.jpg',
-    '/assets/images/v-7.jpg',
+    '/assets/images/h-6.webp',
+    '/assets/images/h-7.webp',
+    '/assets/images/h-8.webp',
+    '/assets/images/h-9.webp',
+    '/assets/images/h-10.webp',
+    '/assets/images/h-11.webp',
+    '/assets/images/h-12.webp',
+    '/assets/images/h-13.webp',
+    '/assets/images/h-14.webp',
+    '/assets/images/h-15.webp',
+    '/assets/images/h-16.webp',
+    '/assets/images/h-17.webp',
+    '/assets/images/h-18.webp',
   ];
   return (
     <WaldoSlider className="h-[40rem] p-10 animate-fadeIn" images={images}>

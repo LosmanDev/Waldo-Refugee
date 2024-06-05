@@ -21,7 +21,7 @@ const Workshops = () => {
           data-aos="fade-right"
           data-aos-duration="3000"
           data-aos-id="super-duper"
-          className="w-full text-center mb-3 "
+          className="w-full text-center px-4 mb-5 "
         >
           <WaldoSliderDemo />
         </div>
@@ -29,7 +29,7 @@ const Workshops = () => {
           data-aos="fade-right"
           data-aos-duration="2000"
           data-aos-id="super-duper"
-          className="grid grid-cols-1 items-center text-center px-4"
+          className="grid grid-cols-1 items-center text-center px-4 mt-2"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
