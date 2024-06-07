@@ -25,62 +25,76 @@ const Workshops = () => {
         >
           <WaldoSliderDemo />
         </div>
-        <div
-          data-aos="fade-right"
-          data-aos-duration="2000"
-          data-aos-id="super-duper"
-          className="grid grid-cols-1 items-center text-center px-4 mt-2"
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="3em"
-            height="3em"
-            viewBox="0 0 24 24"
-            className="flex items-center mx-auto mb-2"
+        <div className="p-6 md:p-8">
+          <div
+            data-aos="fade-right"
+            data-aos-duration="2000"
+            data-aos-id="super-duper"
+            className="text-center mb-6 md:mb-8"
           >
-            <path
-              fill="none"
-              stroke="currentColor"
-              strokeWidth={2}
-              d="M19 7s-5 7-12.5 7c-2 0-5.5 1-5.5 5v4h11v-4c0-2.5 3-1 7-8l-1.5-1.5M3 5V2h20v14h-3M11 1h4v2h-4zM6.5 14a3.5 3.5 0 1 0 0-7a3.5 3.5 0 0 0 0 7Z"
-            ></path>
-          </svg>
+            <h1 className="font-medium text-slate-700 text-2xl md:text-3xl mb-1">
+              Financial Literacy For Afghans
+            </h1>
+            <span className="font-medium text-slate-500 text-lg md:text-xl mb-5">
+              Start Dates: 5/3/2024 & 5/4/2024
+            </span>
+          </div>
 
-          <h1 className="text-center font-medium text-slate-700 text-2xl mb-1">
-            Financial Literacy For Afghans
-          </h1>
+          <div
+            data-aos="fade-right"
+            data-aos-duration="2000"
+            data-aos-id="super-duper"
+            className="text-center mb-6 md:mb-8"
+          >
+            <h1 className="font-medium text-slate-700 text-2xl md:text-3xl mb-1">
+              Financial Literacy For Somalis
+            </h1>
+            <span className="font-medium text-slate-500 text-lg md:text-xl mb-5">
+              Start Dates: 4/26/2024 & 4/27/2024
+            </span>
+          </div>
 
-          <span className="font-medium text-slate-500 text-xl mb-5">
-            Start Dates: Start Dates: 5/3/2024 & 5/4/2024
-          </span>
+          <div
+            data-aos="fade-right"
+            data-aos-duration="2000"
+            data-aos-id="super-duper"
+            className="text-center mb-6 md:mb-8"
+          >
+            <h1 className="font-medium text-slate-700 text-2xl md:text-3xl mb-1">
+              Financial Literacy For Newcomers
+            </h1>
+            <span className="font-medium text-slate-500 text-lg md:text-xl mb-5">
+              Start Dates: 12/10/2022, 12/17/2022, 1/7/2023 & 1/14/2023
+            </span>
+          </div>
 
-          <h1 className="text-center font-medium text-slate-700 text-2xl mb-1">
-            Financial Literacy For Somalis
-          </h1>
+          <div
+            data-aos="fade-right"
+            data-aos-duration="2000"
+            data-aos-id="super-duper"
+            className="text-center mb-6 md:mb-8"
+          >
+            <h1 className="font-medium text-slate-700 text-2xl md:text-3xl mb-1">
+              Virtual Home Buyer Class
+            </h1>
+            <span className="font-medium text-slate-500 text-lg md:text-xl mb-5">
+              Start Dates: 5/10/2022, 5/11/2022 & 5/12/2022
+            </span>
+          </div>
 
-          <span className="font-medium text-slate-500 text-xl mb-5">
-            Start Dates: Start Dates: 4/26/2024 & 4/27/2024
-          </span>
-
-          <h1 className="text-center font-medium text-slate-700 text-2xl mb-1">
-            Financial Literacy For Newcomers
-          </h1>
-
-          <span className="font-medium text-slate-500 text-xl mb-5">
-            Start Dates: 12/10/2022, 12/17/2022, 1/7/2023 & 1/14/2023
-          </span>
-          <h1 className="font-medium text-slate-700 text-2xl mb-1">
-            Virtual Home Buyer Class
-          </h1>
-          <span className="font-medium text-slate-500 text-xl mb-5">
-            Start Dates: 5/10/2022, 5/11/2022 & 5/12/2022
-          </span>
-          <h1 className="font-medium text-slate-700 text-2xl mb-1">
-            First Time Home Buyer Program
-          </h1>
-          <span className="font-medium text-slate-500 text-xl pb-2">
-            Start Dates: 11/13/2021, 11/20/2021 & 12/4/2021
-          </span>
+          <div
+            data-aos="fade-right"
+            data-aos-duration="2000"
+            data-aos-id="super-duper"
+            className="text-center mb-6 md:mb-8"
+          >
+            <h1 className="font-medium text-slate-700 text-2xl md:text-3xl mb-1">
+              First Time Home Buyer Program
+            </h1>
+            <span className="font-medium text-slate-500 text-lg md:text-xl pb-2">
+              Start Dates: 11/13/2021, 11/20/2021 & 12/4/2021
+            </span>
+          </div>
         </div>
         <div
           data-aos="fade-in"
