@@ -4,31 +4,34 @@ import { ImagesSliderDemo } from './ui/ImagesSliderDemo';
 
 const Landing = () => {
   return (
-    <section className="gradient mt-10">
-      <div
-        data-aos="fade-right"
-        data-aos-duration="2000"
-        data-aos-id="super-duper"
-        className="pt-24 text-white"
-      >
-        <div className="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
-          <div className="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left">
-            <h1 className="my-4 px-3 sm:text-4xl text-3xl font-bold leading-tight self-center">
+    <>
+      <section className="gradient mt-10 text-gray-600 body-font">
+        <div
+          data-aos="fade-right"
+          data-aos-duration="2000"
+          data-aos-id="super-duper"
+          className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center"
+        >
+          <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+            <h1 className="title-font sm:text-4xl text-3xl font-bold text-white mb-2">
               Waldo Immigration and Refugee Services Inc
             </h1>
-            <p className="px-3 leading-normal sm:text-2xl text-xl mb-8">
-              A Nonprofit Housing Organization
+            <h3 className="font-medium text-white mb-3">
+              A Nonprofit Organization
               <br />
-              Based in Boston, MA
-            </p>
+              Housing & Social Services
+              <br /> Based in Boston, MA
+            </h3>
 
-            <Link href="#about">
-              <button className="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
-                Our Mission
-              </button>
-            </Link>
+            <div className="flex justify-center">
+              <Link href="#about">
+                <button className="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+                  Our Mission
+                </button>
+              </Link>
+            </div>
             <div className="grid grid-flow-col items-center gap-3">
-              <h1 className="font-medium sm:text-xl text-base pr-2">
+              <h1 className="font-medium sm:text-xl text-white pr-2">
                 Follow Us on:
               </h1>
               <Link
@@ -126,19 +129,14 @@ const Landing = () => {
               </Link>
             </div>
           </div>
-
-          <div
-            // data-aos="fade-right"
-            // data-aos-duration="2000"
-            // data-aos-id="super-duper"
-            className="w-full md:w-3/5 py-6 text-center"
-          >
+          <div className="w-full md:w-5/6">
             <ImagesSliderDemo />
           </div>
         </div>
-      </div>
-      <Svg />
-    </section>
+
+        <Svg />
+      </section>
+    </>
   );
 };
 
