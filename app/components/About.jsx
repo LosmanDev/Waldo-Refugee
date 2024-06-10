@@ -21,10 +21,10 @@ const About = () => {
           className="flex flex-justify-center mt-10"
         >
           <p className="p-5 text-center leading-loose font-light sm:text-2xl text-md">
-            Waldo Housing Assistance Center Inc was founded to help Refugees and
-            Immigrants have access to safe, clean and affordable housing. Waldo
-            strives to create a brighter tomorrow by helping families become
-            homeowners and increase their financial literacy.
+            Waldo Immigration and Refugee Services Inc was founded to help
+            Refugees and Immigrants have access to safe, clean and affordable
+            housing. Waldo strives to create a brighter tomorrow by helping
+            families become homeowners and increase their financial literacy.
           </p>
         </div>
       </div>

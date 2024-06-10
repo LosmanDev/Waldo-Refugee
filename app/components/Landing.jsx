@@ -32,7 +32,7 @@ const Landing = () => {
                 Follow Us on:
               </h1>
               <Link
-                href="https://www.facebook.com/WaldoFoundation/"
+                href="https://www.facebook.com/Waldorefugee/"
                 target="_blank"
               >
                 <svg
@@ -50,7 +50,7 @@ const Landing = () => {
                   ></path>
                 </svg>
               </Link>
-              <Link href="https://twitter.com/WaldoHousingInc" target="_blank">
+              <Link href="https://twitter.com/WaldoRefugee" target="_blank">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="sm:w-9 sm:h-10 w-8 h-8"
@@ -63,7 +63,7 @@ const Landing = () => {
                 </svg>
               </Link>
               <Link
-                href="https://www.instagram.com/waldohousinginc/"
+                href="https://www.instagram.com/WaldoRefugee/"
                 target="_blank"
               >
                 <svg

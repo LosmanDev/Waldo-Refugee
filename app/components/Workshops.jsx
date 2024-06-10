@@ -114,7 +114,7 @@ const Workshops = () => {
           className="flex items-center justify-center mb-20 px-5"
         >
           <iframe
-            src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FWaldoFoundation%2F&tabs=timeline&width=450&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=1059198042044580"
+            src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FWaldorefugee%2F&tabs=timeline&width=450&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=1059198042044580"
             width="450"
             height="500"
             style={{ border: 'none', overflow: 'hidden' }}
