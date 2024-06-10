@@ -13,8 +13,8 @@ const Landing = () => {
       >
         <div className="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
           <div className="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left">
-            <h1 className="my-4 sm:text-5xl text-4xl font-bold leading-tight self-center">
-              Waldo Housing Assistance Center Inc
+            <h1 className="my-4 px-3 sm:text-4xl text-3xl font-bold leading-tight self-center">
+              Waldo Immigration and Refugee Services Inc
             </h1>
             <p className="px-3 leading-normal sm:text-2xl text-xl mb-8">
               A Nonprofit Housing Organization
@@ -128,9 +128,9 @@ const Landing = () => {
           </div>
 
           <div
-            data-aos="fade-right"
-            data-aos-duration="2000"
-            data-aos-id="super-duper"
+            // data-aos="fade-right"
+            // data-aos-duration="2000"
+            // data-aos-id="super-duper"
             className="w-full md:w-3/5 py-6 text-center"
           >
             <ImagesSliderDemo />

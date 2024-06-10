@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const Sponsors = () => {
   return (
-    <section className="mb-40">
+    <section className="mb-32">
       <div
         data-aos="zoom-in-up"
         data-aos-duration="2000"

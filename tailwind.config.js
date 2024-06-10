@@ -16,13 +16,13 @@ module.exports = {
 
           accent: '#00f8e2',
 
-          neutral: '#1c110e',
+          neutral: '#0A0D11',
 
           'base-100': '#ffffff',
 
           info: '#00ffff',
 
-          success: '#00ca96',
+          success: '#60A89D',
 
           warning: '#c48c00',
 
