@@ -1,6 +1,7 @@
 import './globals.css';
 import { Poppins } from 'next/font/google';
 import Navbar from './components/Navbar';
+import { Analytics } from '@vercel/analytics/react';
 
 const poppins = Poppins({
   subsets: ['latin'],
@@ -21,6 +22,7 @@ export default function RootLayout({ children }) {
       <body className="flex flex-col min-h-screen">
         <Navbar />
         <div>{children}</div>
+        <Analytics />
       </body>
     </html>
   );
