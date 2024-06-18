@@ -21,9 +21,9 @@ const Testimonials = () => {
           <div className="container px-5 py-24 mx-auto">
             <div className="flex flex-wrap justify-center -m-4">
               <div
-                // data-aos="fade-right"
-                // data-aos-duration="2000"
-                // data-aos-id="super-duper"
+                data-aos="fade-right"
+                data-aos-duration="2000"
+                data-aos-id="super-duper"
                 className="p-4 md:w-1/2 w-full"
               >
                 <div className="h-full bg-gray-100 p-8 rounded">

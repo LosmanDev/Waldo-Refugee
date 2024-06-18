@@ -31,7 +31,7 @@ export function WaldoSliderDemo() {
   ];
   return (
     <WaldoSlider
-      className="md:h-[40rem] h-[25rem] p-10 animate-fadeIn"
+      className="lg:h-[30rem] h-[25rem] p-10 animate-fadeIn"
       images={images}
     >
       <motion.div

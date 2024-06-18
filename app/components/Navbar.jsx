@@ -56,7 +56,7 @@ const Nav = () => {
             src="/assets/images/waldo-clear.png"
             width={120}
             height={120}
-            className="object-contain pl-5 md:h-full h-14"
+            className="object-contain md:pl-5 lg:pr-1 pr-20 md:h-full h-14"
             alt="logo"
           />
         </Link>

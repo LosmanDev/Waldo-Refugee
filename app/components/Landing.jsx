@@ -129,7 +129,7 @@ const Landing = () => {
               </Link>
             </div>
           </div>
-          <div className="w-full md:w-5/6 ">
+          <div className="w-full lg:w-4/6 mt-5">
             <ImagesSliderDemo />
           </div>
         </div>
