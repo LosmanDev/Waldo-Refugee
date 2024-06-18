@@ -11,9 +11,9 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: 'Waldo Housing Assistance Center Inc',
+  title: 'Waldo Immigration and Refugee Services Inc',
   description:
-    'Waldo Housing Assistance Center Inc was founded to help Refugees and Immigrants have access to safe, clean and affordable housing. Waldo strives to create a brighter tomorrow by helping families become homeowners and increase their financial literacy.',
+    'Waldo Immigration and Refugee Services Inc was founded to help Refugees and Immigrants have access to safe, clean and affordable housing. Waldo strives to create a brighter tomorrow by helping families become homeowners and increase their financial literacy.',
 };
 
 export default function RootLayout({ children }) {
