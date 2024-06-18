@@ -30,7 +30,10 @@ export function WaldoSliderDemo() {
     '/assets/images/h-18.webp',
   ];
   return (
-    <WaldoSlider className="h-[40rem] p-10 animate-fadeIn" images={images}>
+    <WaldoSlider
+      className="md:h-[40rem] h-[25rem] p-10 animate-fadeIn"
+      images={images}
+    >
       <motion.div
         initial={{
           opacity: 0,

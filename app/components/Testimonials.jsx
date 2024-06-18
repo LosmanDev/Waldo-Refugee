@@ -11,7 +11,7 @@ const Testimonials = () => {
     >
       <Svg2 />
       <div className="container max-w-5xl mx-auto m-8">
-        <h2 className="w-full my-2 text-5xl font-bold leading-tight text-center text-white">
+        <h2 className="w-full my-2 sm:text-4xl text-3xl font-bold leading-tight text-center text-white">
           Testimonials
         </h2>
         <div className="w-full mb-4">
@@ -21,9 +21,9 @@ const Testimonials = () => {
           <div className="container px-5 py-24 mx-auto">
             <div className="flex flex-wrap justify-center -m-4">
               <div
-                data-aos="fade-right"
-                data-aos-duration="2000"
-                data-aos-id="super-duper"
+                // data-aos="fade-right"
+                // data-aos-duration="2000"
+                // data-aos-id="super-duper"
                 className="p-4 md:w-1/2 w-full"
               >
                 <div className="h-full bg-gray-100 p-8 rounded">
@@ -39,7 +39,7 @@ const Testimonials = () => {
                     Thank you to Waldo Housing and Maka for helping me find this
                     low income home...
                   </p>
-                  <a className="inline-flex items-center mb-2">
+                  <div className="inline-flex items-center mb-2">
                     <span className="flex-grow flex flex-col pl-4">
                       <span className="title-font font-medium text-gray-900">
                         Layla
@@ -48,8 +48,8 @@ const Testimonials = () => {
                         Successful Client Testimony
                       </span>
                     </span>
-                  </a>
-                  <div className="flex justify-center">
+                  </div>
+                  <div className="flex justify-center ">
                     <iframe
                       className="rounded-lg"
                       src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2FWaldoFoundation%2Fvideos%2F347673270522216%2F&show_text=true&width=267&t=0"
@@ -84,7 +84,7 @@ const Testimonials = () => {
                     Thanks to Waldo Housing Center, especially Maka! Who helped
                     with this two family home in Attleboro, MA...
                   </p>
-                  <a className="inline-flex items-center mb-2">
+                  <div className="inline-flex items-center mb-2">
                     <span className="flex-grow flex flex-col pl-4">
                       <span className="title-font font-medium text-gray-900">
                         Steven
@@ -93,7 +93,7 @@ const Testimonials = () => {
                         Successful Client Testimony
                       </span>
                     </span>
-                  </a>
+                  </div>
                   <div className="flex justify-center">
                     <iframe
                       className="rounded-lg"
@@ -126,7 +126,7 @@ const Testimonials = () => {
                     Thank you to Maka for assisting with the $10,000 rent
                     Assistance....
                   </p>
-                  <a className="inline-flex items-center mb-2">
+                  <div className="inline-flex items-center mb-2">
                     <span className="flex-grow flex flex-col pl-4">
                       <span className="title-font font-medium text-gray-900">
                         Azeda
@@ -135,7 +135,7 @@ const Testimonials = () => {
                         Successful Client Testimony
                       </span>
                     </span>
-                  </a>
+                  </div>
                   <div className="flex justify-center">
                     <iframe
                       className="rounded-lg"

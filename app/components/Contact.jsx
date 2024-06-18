@@ -41,9 +41,15 @@ const Contact = () => {
       className="bg-white mt-32"
     >
       <div className="container max-w-5xl mx-auto m-8 px-10">
-        <h2 className="w-full my-2 sm:text-5xl text-3xl font-bold leading-tight text-center bg-gradient-to-r from-custom-green to-custom-cream text-transparent bg-clip-text mb-5">
+        <h2 className="w-full my-2 sm:text-5xl text-3xl font-bold leading-tight text-center bg-gradient-to-r from-custom-green to-custom-cream text-transparent bg-clip-text mb-3">
           Lets Get In Touch
         </h2>
+        <h1 className="text-center text-slate-600 font-semibold text-md pb-3">
+          Phone:{' '}
+          <span className="text-center text-slate-600 font-medium pb-5">
+            781-408-8939
+          </span>
+        </h1>
 
         {submitted ? (
           <div className="flex flex-col sm:flex-row items-center justify-center animate-fadeIn">
@@ -53,7 +59,7 @@ const Contact = () => {
           <form onSubmit={handleSubmit(onSubmit)}>
             <div
               id="contact"
-              className="flex flex-col items-center justify-center animate-fadeIn textFont  "
+              className="flex flex-col items-center justify-center animate-fadeIn textFont"
             >
               <textarea
                 name="message"
@@ -86,16 +92,13 @@ const Contact = () => {
               <p className="text-error text-center pt-3">
                 {errors.Message?.message}
               </p>
+              <p className="text-error text-center pt-3">
+                {errors.Email?.email}
+              </p>
             </div>
           </form>
         )}
         <div className="grid grid-cols-1 text-center justify-center mt-10">
-          <h1 className="text-slate-600 font-semibold sm:text-2xl text-xl pb-3">
-            Phone
-          </h1>
-          <span className="text-slate-600 font-medium sm:text-xl text-lg pb-5">
-            781-408-8939
-          </span>
           <h1 className="text-slate-600 font-semibold sm:text-2xl text-xl pb-3">
             Office Location
           </h1>

@@ -10,7 +10,7 @@ const Workshops = () => {
       className="bg-white mb-10"
     >
       <div className="container max-w-5xl mx-auto m-8">
-        <h2 className="w-full my-2 text-5xl font-bold leading-tight text-center bg-gradient-to-r from-custom-green to-custom-cream text-transparent bg-clip-text">
+        <h2 className="w-full my-2 sm:text-4xl text-3xl font-bold leading-tight text-center bg-gradient-to-r from-custom-green to-custom-cream text-transparent bg-clip-text">
           WorkShops
         </h2>
         <div className="w-full mb-4">
@@ -32,7 +32,7 @@ const Workshops = () => {
             data-aos-id="super-duper"
             className="text-center mb-6 md:mb-8"
           >
-            <h1 className="font-medium text-slate-700 text-2xl md:text-3xl mb-1">
+            <h1 className="font-medium text-slate-700 text-xl md:text-3xl mb-1">
               Financial Literacy For Afghans
             </h1>
             <span className="font-medium text-slate-500 text-lg md:text-xl mb-5">
@@ -46,7 +46,7 @@ const Workshops = () => {
             data-aos-id="super-duper"
             className="text-center mb-6 md:mb-8"
           >
-            <h1 className="font-medium text-slate-700 text-2xl md:text-3xl mb-1">
+            <h1 className="font-medium text-slate-700 text-xl md:text-3xl mb-1">
               Financial Literacy For Somalis
             </h1>
             <span className="font-medium text-slate-500 text-lg md:text-xl mb-5">
@@ -60,7 +60,7 @@ const Workshops = () => {
             data-aos-id="super-duper"
             className="text-center mb-6 md:mb-8"
           >
-            <h1 className="font-medium text-slate-700 text-2xl md:text-3xl mb-1">
+            <h1 className="font-medium text-slate-700 text-xl md:text-3xl mb-1">
               Financial Literacy For Newcomers
             </h1>
             <span className="font-medium text-slate-500 text-lg md:text-xl mb-5">
@@ -74,7 +74,7 @@ const Workshops = () => {
             data-aos-id="super-duper"
             className="text-center mb-6 md:mb-8"
           >
-            <h1 className="font-medium text-slate-700 text-2xl md:text-3xl mb-1">
+            <h1 className="font-medium text-slate-700 text-xl md:text-3xl mb-1">
               Virtual Home Buyer Class
             </h1>
             <span className="font-medium text-slate-500 text-lg md:text-xl mb-5">
@@ -88,7 +88,7 @@ const Workshops = () => {
             data-aos-id="super-duper"
             className="text-center mb-6 md:mb-8"
           >
-            <h1 className="font-medium text-slate-700 text-2xl md:text-3xl mb-1">
+            <h1 className="font-medium text-slate-700 text-xl md:text-3xl mb-1">
               First Time Home Buyer Program
             </h1>
             <span className="font-medium text-slate-500 text-lg md:text-xl pb-2">

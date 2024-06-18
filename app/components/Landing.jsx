@@ -13,7 +13,7 @@ const Landing = () => {
           className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center"
         >
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-            <h1 className="title-font sm:text-4xl text-3xl font-bold text-white mb-2">
+            <h1 className="title-font sm:text-4xl text-2xl font-bold text-white mb-2">
               Waldo Immigration and Refugee Services Inc
             </h1>
             <h3 className="font-medium text-white mb-3">
@@ -129,7 +129,7 @@ const Landing = () => {
               </Link>
             </div>
           </div>
-          <div className="w-full md:w-5/6">
+          <div className="w-full md:w-5/6 ">
             <ImagesSliderDemo />
           </div>
         </div>

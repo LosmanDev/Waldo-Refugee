@@ -8,7 +8,7 @@ const About = () => {
       className="bg-white"
     >
       <div className="container max-w-5xl mx-auto m-8">
-        <h2 className="w-full my-2 text-5xl font-bold leading-tight text-center bg-gradient-to-r from-custom-green to-custom-cream text-transparent bg-clip-text">
+        <h2 className="w-full my-2 sm:text-4xl text-3xl font-bold leading-tight text-center bg-gradient-to-r from-custom-green to-custom-cream text-transparent bg-clip-text">
           Our Mission
         </h2>
         <div className="w-full mb-4">

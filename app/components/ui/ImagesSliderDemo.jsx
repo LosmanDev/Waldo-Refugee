@@ -13,7 +13,10 @@ export function ImagesSliderDemo() {
     '/assets/images/6.jpg',
   ];
   return (
-    <ImagesSlider className="h-[40rem] p-10 animate-fadeIn" images={images}>
+    <ImagesSlider
+      className="md:h-[40rem] h-[25rem] p-10 animate-fadeIn"
+      images={images}
+    >
       <motion.div
         initial={{
           opacity: 0,
