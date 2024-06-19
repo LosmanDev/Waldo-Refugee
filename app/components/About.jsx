@@ -20,11 +20,16 @@ const About = () => {
           data-aos-id="super-duper"
           className="flex flex-justify-center mt-10"
         >
-          <p className="p-5 text-center leading-loose font-light sm:text-2xl text-md">
-            Waldo Immigration and Refugee Services Inc was founded to help
-            Refugees and Immigrants have access to safe, clean and affordable
-            housing. Waldo strives to create a brighter tomorrow by helping
-            families become homeowners and increase their financial literacy.
+          <p className="p-5 text-center leading-normal font-extralight sm:text-2xl text-md">
+            At Waldo, our mission is to empower refugees by providing support in
+            immigration, housing, social services, and financial literacy. We
+            foster an inclusive community where refugees find the resources,
+            advocacy, and guidance needed to rebuild their lives with dignity.
+            Through collaboration, compassion, and innovative solutions, we
+            ensure refugees access the opportunities and support necessary to
+            thrive. Our financial literacy programs equip refugees with the
+            skills for financial stability and independence, laying the
+            foundation for a secure future.
           </p>
         </div>
       </div>

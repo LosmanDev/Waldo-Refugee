@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${poppins.variable}`}>
       <head>
-        <link rel="icon" href="/public/assets/favicon.ico'" sizes="any" />
+        <link rel="icon" href="/favicon.ico" sizes="any" />
       </head>
       <body className="flex flex-col min-h-screen">
         <Navbar />

@@ -18,13 +18,17 @@ const Sponsors = () => {
         data-aos="fade-right"
         data-aos-duration="2000"
         data-aos-id="super-duper"
-        className="grid justify-center items-center"
+        className="flex justify-center items-center"
       >
         <Link
           href="https://www.mass.gov/orgs/office-for-refugees-and-immigrants"
           target="_blank"
+          className="flex flex-col items-center"
         >
           <Image src="/assets/images/ori.png" width={250} height={250} />
+          <p className="text-center font-light mt-2">
+            Massachusets Office for Refugees and Immigrants
+          </p>
         </Link>
       </div>
     </section>

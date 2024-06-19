@@ -102,14 +102,15 @@ const Contact = () => {
           <h1 className="text-slate-600 font-semibold sm:text-2xl text-xl pb-3">
             Office Location
           </h1>
-          <span className="text-slate-600 font-medium sm:text-xl text-lg pb-3">
+          <span className="text-slate-600 font-medium md:text-lg text-base pb-3">
             <span className="text-custom-green">1417 </span>
             Tremont Street, Boston MA{' '}
             <span className="text-custom-green">02120</span>
           </span>
-          <span className="pt-5 font-medium text-lg ">
+          <span className="pt-5 font-medium md:text-sm text-xs">
             Copyright <span className="text-custom-green">&copy; </span>
-            {new Date().getFullYear()} - Waldo Immigration And
+            {new Date().getFullYear()} - Waldo{' '}
+            <span className="text-custom-green">Immigration</span> And
             <span className="text-custom-green"> Refugee</span> Services Inc
           </span>
         </div>

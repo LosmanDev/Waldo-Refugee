@@ -18,8 +18,6 @@ const Landing = () => {
             </h1>
             <h3 className="font-medium text-white mb-3">
               A Nonprofit Organization
-              <br />
-              Housing & Social Services
               <br /> Based in Boston, MA
             </h3>
 
