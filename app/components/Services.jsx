@@ -1,13 +1,13 @@
 import Svg2 from './ui/Svg2';
 import Svg from './ui/Svg';
 import Image from 'next/image';
+import empower from '../../public/assets/images/empower.webp';
 
 const Services = () => {
   return (
     <section
       data-aos="fade-down"
       data-aos-duration="2000"
-      data-aos-id="super-duper"
       id="services"
       className="gradient"
     >
@@ -17,20 +17,67 @@ const Services = () => {
           Our Services
         </h2>
 
+        <section className="text-[#ffffffe0] body-font">
+          <div className="container mx-auto flex px-5 pt-12 pb-24 md:flex-row flex-col items-center">
+            <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+              <h1
+                data-aos="fade-right"
+                data-aos-duration="2000"
+                data-aos-delay="100"
+                className="title-font sm:text-4xl text-3xl mb-4 font-semibold text-white"
+              >
+                Empowering Immigrants To{' '}
+                <br className="hidden lg:inline-block" />
+                Start a Business
+              </h1>
+              <ul
+                data-aos="fade-right"
+                data-aos-duration="2000"
+                data-aos-delay="200"
+                className="mb-8 leading-relaxed"
+              >
+                <li className="font-medium text-lg">Business Structure.</li>
+                <li className="font-medium text-lg">Business Plan.</li>
+                <li className="font-medium text-lg">
+                  EIN/Licenses and Permits.
+                </li>
+                <li className="font-medium text-lg">
+                  Lawyer Referral for Advice.
+                </li>
+                <li className="font-medium text-lg">
+                  Referral for Web Development Services.
+                </li>
+              </ul>
+            </div>
+            <div
+              data-aos="fade-right"
+              data-aos-duration="2000"
+              data-aos-delay="600"
+              className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6"
+            >
+              <Image
+                className="object-cover object-center rounded"
+                alt="hero"
+                src={empower}
+                width={720}
+                height={600}
+              />
+            </div>
+          </div>
+        </section>
+
         <div className="w-full mb-4">
           <div className="h-1 mx-auto bg-white w-64 opacity-25 my-0 py-0 rounded-t"></div>
         </div>
         <div
           data-aos="fade-up"
           data-aos-duration="2000"
-          data-aos-id="super-duper"
           className="container px-5 py-24 mx-auto"
         >
           <div className="flex justify-center items-center flex-wrap -m-4 w-3/4 sm:w-full mx-auto">
             <div
               data-aos="fade-right"
               data-aos-duration="2000"
-              data-aos-id="super-duper"
               className="p-4 md:w-1/3"
             >
               <div className="h-full border-2 bg-custom-cream border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
@@ -53,7 +100,6 @@ const Services = () => {
             <div
               data-aos="fade-right"
               data-aos-duration="2000"
-              data-aos-id="super-duper"
               className="p-4 md:w-1/3"
             >
               <div className="h-full border-2 bg-custom-cream border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
@@ -77,7 +123,6 @@ const Services = () => {
             <div
               data-aos="fade-right"
               data-aos-duration="2000"
-              data-aos-id="super-duper"
               className="p-4 md:w-1/3"
             >
               <div className="h-full border-2 bg-custom-cream border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
@@ -101,7 +146,6 @@ const Services = () => {
             <div
               data-aos="fade-right"
               data-aos-duration="2000"
-              data-aos-id="super-duper"
               className="p-4 md:w-1/3"
             >
               <div className="h-full border-2 bg-custom-cream border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
@@ -125,7 +169,6 @@ const Services = () => {
             <div
               data-aos="fade-right"
               data-aos-duration="2000"
-              data-aos-id="super-duper"
               className="p-4 md:w-1/3"
             >
               <div className="h-full border-2 bg-custom-cream border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
@@ -149,7 +192,6 @@ const Services = () => {
             <div
               data-aos="fade-right"
               data-aos-duration="2000"
-              data-aos-id="super-duper"
               className="p-4 md:w-1/3"
             >
               <div className="h-full border-2 bg-custom-cream border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
@@ -173,7 +215,6 @@ const Services = () => {
             <div
               data-aos="fade-right"
               data-aos-duration="2000"
-              data-aos-id="super-duper"
               className="p-4 md:w-1/3"
             >
               <div className="h-full border-2 bg-custom-cream border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
@@ -197,7 +238,6 @@ const Services = () => {
             <div
               data-aos="fade-right"
               data-aos-duration="2000"
-              data-aos-id="super-duper"
               className="p-4 md:w-1/3"
             >
               <div className="h-full border-2 bg-custom-cream border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
@@ -221,7 +261,6 @@ const Services = () => {
             <div
               data-aos="fade-right"
               data-aos-duration="2000"
-              data-aos-id="super-duper"
               className="p-4 md:w-1/3"
             >
               <div className="h-full border-2 bg-custom-cream border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
@@ -244,10 +283,10 @@ const Services = () => {
             </div>
           </div>
         </div>
+
         <div
           data-aos="zoom-in"
           data-aos-duration="2000"
-          data-aos-id="super-duper"
           className="flex items-center justify-center item mt-10 mb-5"
         >
           <h1 className="text-white text-center text-2xl font-medium">
@@ -286,7 +325,6 @@ const Services = () => {
         <div
           data-aos="zoom-in"
           data-aos-duration="2000"
-          data-aos-id="super-duper"
           className="flex justify-center items-center"
         >
           <ul className="flex flex-wrap text-center justify-center items-center">
