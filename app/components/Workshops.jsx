@@ -33,6 +33,19 @@ const Workshops = () => {
             className="text-center mb-6 md:mb-8"
           >
             <h1 className="font-medium text-slate-700 text-xl md:text-3xl mb-1">
+              Biotech training Bootcamp
+            </h1>
+            <span className="font-medium text-slate-500 text-lg md:text-xl mb-5">
+              Start Dates: 6/19/2024 - 6/25/2024 & more to come....
+            </span>
+          </div>
+          <div
+            data-aos="fade-right"
+            data-aos-duration="2000"
+            data-aos-id="super-duper"
+            className="text-center mb-6 md:mb-8"
+          >
+            <h1 className="font-medium text-slate-700 text-xl md:text-3xl mb-1">
               Financial Literacy For Afghans
             </h1>
             <span className="font-medium text-slate-500 text-lg md:text-xl mb-5">

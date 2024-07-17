@@ -28,6 +28,9 @@ export function WaldoSliderDemo() {
     '/assets/images/h-16.webp',
     '/assets/images/h-17.webp',
     '/assets/images/h-18.webp',
+    '/assets/images/biotech.webp',
+    '/assets/images/biotech-1.webp',
+    '/assets/images/biotech-2.webp',
   ];
   return (
     <WaldoSlider
