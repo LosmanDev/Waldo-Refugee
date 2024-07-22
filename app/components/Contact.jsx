@@ -103,9 +103,9 @@ const Contact = () => {
             Office Location
           </h1>
           <span className="text-slate-600 font-medium md:text-lg text-base pb-3">
-            <span className="text-custom-green">1417 </span>
-            Tremont Street, Boston MA{' '}
-            <span className="text-custom-green">02120</span>
+            <span className="text-custom-green">257 </span>
+            Roxbury Street, Roxbury MA{' '}
+            <span className="text-custom-green">02119</span>
           </span>
           <span className="pt-5 font-medium md:text-sm text-xs">
             Copyright <span className="text-custom-green">&copy; </span>
