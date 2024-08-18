@@ -131,7 +131,7 @@ const Workshops = () => {
             width="450"
             height="500"
             style={{ border: 'none', overflow: 'hidden' }}
-            allowFullScreen="true"
+            allowFullScreen={true}
             allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
           ></iframe>
         </div>

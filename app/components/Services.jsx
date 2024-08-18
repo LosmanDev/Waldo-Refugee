@@ -80,14 +80,13 @@ const Services = () => {
               data-aos-duration="2000"
               className="p-4 md:w-1/3"
             >
-              <div className="h-full border-2 bg-custom-cream border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+              <div className="h-full border-2 bg-custom-cream border-gray-200 border-opacity-60 rounded-lg overflow-hidden ">
                 <div className="lg:h-48 md:h-36 h-24 w-full relative">
                   <Image
-                    className="pt-5"
+                    className="pt-5 object-center object-contain absolute inset-0 "
                     src="/assets/images/low-income.png"
                     alt="low income"
                     layout="fill"
-                    objectFit="contain"
                   />
                 </div>
                 <div className="p-6">
@@ -105,12 +104,10 @@ const Services = () => {
               <div className="h-full border-2 bg-custom-cream border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                 <div className="lg:h-48 md:h-36 h-24 w-full relative">
                   <Image
-                    className="pt-5"
+                    className="pt-5 object-center object-contain absolute inset-0"
                     src="/assets/images/rent-assistance.png"
                     alt="rent assistance"
                     layout="fill"
-                    objectFit="contain"
-                    objectPosition="center"
                   />
                 </div>
                 <div className="p-6">
@@ -128,12 +125,10 @@ const Services = () => {
               <div className="h-full border-2 bg-custom-cream border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                 <div className="lg:h-48 md:h-36 h-24 w-full relative">
                   <Image
-                    className="pt-5"
+                    className="pt-5 object-center object-contain absolute inset-0"
                     src="/assets/images/advocacy.png"
                     alt="Housing Advocacy"
                     layout="fill"
-                    objectFit="contain"
-                    objectPosition="center"
                   />
                 </div>
                 <div className="p-6">
@@ -151,12 +146,10 @@ const Services = () => {
               <div className="h-full border-2 bg-custom-cream border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                 <div className="lg:h-48 md:h-36 h-24 w-full relative">
                   <Image
-                    className="pt-5"
+                    className="pt-5 object-center object-contain absolute inset-0"
                     src="/assets/images/eviction-prevention.png"
                     alt="eviction prevention"
                     layout="fill"
-                    objectFit="contain"
-                    objectPosition="center"
                   />
                 </div>
                 <div className="p-6">
@@ -174,12 +167,10 @@ const Services = () => {
               <div className="h-full border-2 bg-custom-cream border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                 <div className="lg:h-48 md:h-36 h-24 w-full relative">
                   <Image
-                    className="pt-5"
+                    className="pt-5 object-center object-contain absolute inset-0"
                     src="/assets/images/court.png"
                     alt="court assistance"
                     layout="fill"
-                    objectFit="contain"
-                    objectPosition="center"
                   />
                 </div>
                 <div className="p-6">
@@ -197,12 +188,10 @@ const Services = () => {
               <div className="h-full border-2 bg-custom-cream border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                 <div className="lg:h-48 md:h-36 h-24 w-full relative">
                   <Image
-                    className="pt-5"
+                    className="pt-5 object-center object-contain absolute inset-0"
                     src="/assets/images/home-repair.png"
                     alt="home repair"
                     layout="fill"
-                    objectFit="contain"
-                    objectPosition="center"
                   />
                 </div>
                 <div className="p-6">
@@ -220,12 +209,10 @@ const Services = () => {
               <div className="h-full border-2 bg-custom-cream border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                 <div className="lg:h-48 md:h-36 h-24 w-full relative">
                   <Image
-                    className="pt-5"
+                    className="pt-5 object-center object-contain absolute inset-0"
                     src="/assets/images/home-buyer.png"
                     alt="Home Buyer Assistance"
                     layout="fill"
-                    objectFit="contain"
-                    objectPosition="center"
                   />
                 </div>
                 <div className="p-6">
@@ -243,12 +230,10 @@ const Services = () => {
               <div className="h-full border-2 bg-custom-cream border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                 <div className="lg:h-48 md:h-36 h-24 w-full relative">
                   <Image
-                    className="pt-5"
+                    className="pt-5 object-center object-contain absolute inset-0 "
                     src="/assets/images/home-ownership.png"
                     alt="Home ownership assistance"
                     layout="fill"
-                    objectFit="contain"
-                    objectPosition="center"
                   />
                 </div>
                 <div className="p-6">
@@ -266,12 +251,10 @@ const Services = () => {
               <div className="h-full border-2 bg-custom-cream border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
                 <div className="lg:h-48 md:h-36 h-24 w-full relative">
                   <Image
-                    className="pt-5"
+                    className="pt-5 object-center object-contain absolute inset-0 "
                     src="/assets/images/immigration.png"
                     alt="immigration referral"
                     layout="fill"
-                    objectFit="contain"
-                    objectPosition="center"
                   />
                 </div>
                 <div className="p-6">

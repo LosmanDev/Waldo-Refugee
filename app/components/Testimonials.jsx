@@ -60,7 +60,7 @@ const Testimonials = () => {
                         overflow: 'hidden',
                       }}
                       allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
-                      allowFullScreen
+                      allowFullScreen={true}
                     ></iframe>
                   </div>
                 </div>
@@ -102,7 +102,7 @@ const Testimonials = () => {
                       height="591"
                       style={{ border: 'none', overflow: 'hidden' }}
                       allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
-                      allowFullScreen
+                      allowFullScreen={true}
                     ></iframe>
                   </div>
                 </div>
@@ -143,7 +143,7 @@ const Testimonials = () => {
                       width="267"
                       height="591"
                       style={{ border: 'none', overflow: 'hidden' }}
-                      allowFullScreen
+                      allowFullScreen={true}
                       allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
                     ></iframe>
                   </div>

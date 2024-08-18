@@ -13,7 +13,11 @@ import 'aos/dist/aos.css';
 
 export default function Home() {
   useEffect(() => {
-    AOS.init();
+    AOS.init({
+      duration: 1500,
+      once: true,
+      mirror: true,
+    });
   }, []);
   return (
     <main>

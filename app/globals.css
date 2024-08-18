@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  font-family: var(--font-poppins);
-}
-
 .gradient {
   background: linear-gradient(90deg, #56a399 0%, #f8f6e3 100%);
 }
