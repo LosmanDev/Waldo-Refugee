@@ -2,6 +2,7 @@
 
 import React, { useEffect } from 'react';
 import Script from 'next/script';
+import Link from 'next/link';
 
 import { WaldoSliderDemo } from './ui/WaldoSliderDemo';
 
@@ -143,22 +144,28 @@ const Workshops = () => {
               Join our Facebook page for updates and more..
             </h2>
           </div>
-          <div
-            data-aos="fade-right"
-            data-aos-duration="2000"
-            className="flex items-center justify-center mb-20 px-5"
+          <Link
+            className="flex justify-center items-center"
+            href="https://www.facebook.com/Waldorefugee/"
+            target="_blank"
           >
-            {/* <iframe
-            src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FWaldorefugee%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=1059198042044580"
-            width="340"
-            height="500"
-            style={{ border: 'none', overflow: 'hidden' }}
-            frameborder="0"
-            allowFullScreen={true}
-            allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
-          ></iframe> */}
-
-            <div
+            <svg
+              className="sm:w-10 sm:h-12 w-8 h-8"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 256 256"
+            >
+              <path
+                fill="#1877f2"
+                d="M256 128C256 57.308 198.692 0 128 0C57.308 0 0 57.308 0 128c0 63.888 46.808 116.843 108 126.445V165H75.5v-37H108V99.8c0-32.08 19.11-49.8 48.348-49.8C170.352 50 185 52.5 185 52.5V84h-16.14C152.959 84 148 93.867 148 103.99V128h35.5l-5.675 37H148v89.445c61.192-9.602 108-62.556 108-126.445"
+              ></path>
+              <path
+                fill="#fff"
+                d="m177.825 165l5.675-37H148v-24.01C148 93.866 152.959 84 168.86 84H185V52.5S170.352 50 156.347 50C127.11 50 108 67.72 108 99.8V128H75.5v37H108v89.445A128.959 128.959 0 0 0 128 256a128.9 128.9 0 0 0 20-1.555V165z"
+              ></path>
+            </svg>
+          </Link>
+          <div className="flex items-center justify-center mb-20 px-5">
+            {/* <div
               className="fb-page"
               data-href="https://www.facebook.com/Waldorefugee/"
               data-tabs="timeline"
@@ -177,7 +184,16 @@ const Workshops = () => {
                   Waldo Immigration and Refugee Services Inc
                 </a>
               </blockquote>
-            </div>
+            </div> */}
+            <iframe
+              src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FWaldorefugee%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=1059198042044580"
+              width="340"
+              height="500"
+              style={{ border: 'none', overflow: 'hidden' }}
+              frameborder="0"
+              allowFullScreen={true}
+              allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+            ></iframe>
           </div>
         </div>
       </section>

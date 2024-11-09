@@ -126,6 +126,14 @@ const Landing = () => {
                 </svg>
               </Link>
             </div>
+            <div className="flex flex-col justify-center items-center ">
+              <h1 className="title-font text-lg font-bold text-white mt-10">
+                *** Looking for High School Mentors ***
+              </h1>
+              <Link href="#contact" className="btn btn-wide mt-2">
+                Contact
+              </Link>
+            </div>
           </div>
           <div className="w-full lg:w-4/6 mt-5">
             <ImagesSliderDemo />
