@@ -21,15 +21,7 @@ const About = () => {
           className="flex flex-justify-center mt-10"
         >
           <p className="p-5 text-center leading-normal font-extralight sm:text-2xl text-md">
-            At Waldo, our mission is to empower refugees by providing support in
-            immigration, housing, social services, and financial literacy. We
-            foster an inclusive community where refugees find the resources,
-            advocacy, and guidance needed to rebuild their lives with dignity.
-            Through collaboration, compassion, and innovative solutions, we
-            ensure refugees access the opportunities and support necessary to
-            thrive. Our financial literacy programs equip refugees with the
-            skills for financial stability and independence, laying the
-            foundation for a secure future.
+            At Waldo, our mission is to empower refugees, especially women by providing support in housing, comprehensive social services, financial literacy, ESL education, and entrepreneurship programs. We foster an inclusive community where refugees find the resources, advocacy, and guidance needed to rebuild their lives with dignity. Through collaboration, compassion, and innovative solutions, we ensure refugees access the opportunities and support necessary to thrive. Our financial literacy programs equip refugees with the skills for financial stability and independence, laying the foundation for a secure future.
           </p>
         </div>
       </div>
