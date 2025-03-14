@@ -127,11 +127,8 @@ const Landing = () => {
               </Link>
             </div>
             <div className="flex flex-col justify-center items-center ">
-              <h1 className="title-font sm:text-lg text-base font-bold text-slate-700 mt-10">
-                *** Looking for High School Mentors ***
-              </h1>
-              <Link href="#contact" className="btn btn-wide mt-2">
-                Contact
+              <Link href="#contact" className="underline hover:underline title-font sm:text-lg text-base font-bold text-slate-700 mt-10">
+                Waldo is Seeking High School Student Mentors!
               </Link>
             </div>
           </div>
